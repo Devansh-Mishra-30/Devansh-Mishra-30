@@ -1,68 +1,107 @@
-# Hi, I’m Devansh Mishra 👋
+<div align="center">
 
-I’m a robotics software and simulation engineer with an M.S. in Mechanical Engineering from UW–Madison, specializing in modeling, simulation, controls, autonomous systems, and digital twins.
+# Devansh Mishra
 
-I build tested robotics systems using C++, Python, ROS 2, Gazebo, PyBullet, Pinocchio, CUDA, Docker, and GitHub Actions.
+### Robotics Software · Simulation · Controls · Autonomous Systems
 
-## Featured Projects
+I build tested, reproducible robotics platforms using
+**C++ · Python · ROS 2 · Gazebo · PyBullet · Pinocchio · CUDA**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-View_Projects-2563EB?style=for-the-badge)](https://devanshportfolio.bubbleapps.io/version-test/)
+[![GitHub](https://img.shields.io/badge/GitHub-Devansh--Mishra--30-181717?style=for-the-badge&logo=github)](https://github.com/Devansh-Mishra-30)
+[![Location](https://img.shields.io/badge/Location-Nevada%2C_USA-16A34A?style=for-the-badge)](#)
+
+</div>
+
+---
+
+## Featured Engineering Work
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### [Franka Writing Studio](https://github.com/Devansh-Mishra-30/franka-writing-studio)
 
-Physics-based digital twin for a 7-DoF Franka manipulator featuring:
+Physics-based digital twin for precision writing with a 7-DoF Franka manipulator.
 
-- SVG-to-Cartesian writing-plan generation
+`Python` `PyBullet` `Pinocchio` `MATLAB` `Qt`
+
+- SVG-to-Cartesian motion planning
 - Minimum-jerk trajectories
-- Bounded full-pose inverse kinematics
-- Damped least-squares differential IK
-- Hybrid XY position and Z-axis force-admittance control
-- Collision, reachability, and workspace preflight
-- PyBullet simulation and Pinocchio dynamics
-- MATLAB cross-software verification
-- 129 automated tests, Docker, CI, and reproducible experiment evidence
+- Bounded pose IK and differential IK
+- Hybrid position/force control
+- Collision and reachability preflight
+- Reproducible experiment evidence
 
-**Validated result:** 0.0848 mm WRITE-path XY RMSE, 100% contact, and zero force-controller saturation in simulation.
+**129 tests · 0.0848 mm XY RMSE · 100% contact**
+
+[Repository](https://github.com/Devansh-Mishra-30/franka-writing-studio) · [Release](https://github.com/Devansh-Mishra-30/franka-writing-studio/releases/tag/v1.0.0)
+
+</td>
+<td width="50%" valign="top">
 
 ### [ROS 2 AMR Platform](https://github.com/Devansh-Mishra-30/cpp_robotics_sim_foundation)
 
-A ROS 2 Jazzy autonomy platform featuring:
+Autonomous mobile-robot simulation and verification platform built on ROS 2 Jazzy.
 
-- Gazebo Harmonic simulation
+`C++` `Python` `ROS 2` `Gazebo` `Nav2`
+
 - SLAM Toolbox mapping
 - AMCL localization
 - Nav2 autonomous navigation
-- Command arbitration and operational modes
-- Action feedback and cancellation
+- Command arbitration and cancellation
 - Lifecycle-aware managers
-- Unit, integration, and end-to-end verification
-- Docker and GitHub Actions CI
+- Unit, integration and E2E testing
+
+**357 tests · Docker · GitHub Actions · v0.1.0**
+
+[Repository](https://github.com/Devansh-Mishra-30/cpp_robotics_sim_foundation)
+
+</td>
+</tr>
+</table>
 
 ### [CUDA Particle Simulation](https://github.com/Devansh-Mishra-30/2D-particle-sim)
 
-A 2D physics simulation comparing:
+Parallel 2D physics simulation comparing serial CPU, OpenMP and CUDA execution.
 
-- Serial CPU execution
-- OpenMP parallel execution
-- CUDA GPU acceleration
-- Reproducible performance benchmarks
-- Up to 25.7× speedup at 20,000 particles
+**20,000 particles · 25.7× GPU speedup**
 
-## Current Focus
+---
 
-- Robotics software and simulation
-- Manipulator and autonomous-mobile-robot systems
-- C++ problem solving and software engineering
-- PLC, HMI, industrial robotics, and automation
-- Verification, fault handling, and reproducible experimentation
+## Engineering Stack
 
-## Technical Stack
+| Area | Technologies |
+|---|---|
+| Languages | C++, Python, MATLAB, Bash |
+| Robotics | ROS 2, Gazebo, MoveIt 2, Nav2, SLAM Toolbox, PyBullet |
+| Modeling & Control | Kinematics, dynamics, trajectory generation, differential IK, force control |
+| Simulation & V&V | Digital twins, fault testing, numerical verification, experiment automation |
+| Software Engineering | Linux, Git, CMake, Docker, pytest, GoogleTest, GitHub Actions |
+| Parallel Computing | CUDA, OpenMP |
 
-**Languages:** C++, Python, MATLAB
-**Robotics:** ROS 2, Gazebo, MoveIt 2, Nav2, SLAM Toolbox, PyBullet, Pinocchio
-**Engineering:** Kinematics, dynamics, controls, trajectory generation, simulation, V&V
-**Software:** Linux, Git, CMake, Docker, GitHub Actions, pytest, GoogleTest
-**Parallel Computing:** CUDA, OpenMP
+---
 
-## Connect
+## Current Direction
 
-- [Portfolio](https://devanshportfolio.bubbleapps.io/version-test/)
-- [GitHub](https://github.com/Devansh-Mishra-30)
+- Building reliable robotics software for manipulators and autonomous mobile robots
+- Strengthening modern C++, algorithms and software architecture
+- Learning PLC, HMI and industrial robot integration
+- Designing verification workflows for simulation and autonomy
+
+---
+
+<div align="center">
+
+### GitHub Activity
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Devansh-Mishra-30&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" alt="Devansh's GitHub statistics">
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devansh-Mishra-30&layout=compact&hide_border=true&theme=github_dark&langs_count=6" alt="Most-used languages">
+
+<br><br>
+
+**M.S. Mechanical Engineering — Modeling & Simulation**
+University of Wisconsin–Madison
+
+</div>
