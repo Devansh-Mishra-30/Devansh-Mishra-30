@@ -56,10 +56,10 @@ A 2D physics simulation comparing:
 
 ## Technical Stack
 
-**Languages:** C++, Python, MATLAB  
-**Robotics:** ROS 2, Gazebo, MoveIt 2, Nav2, SLAM Toolbox, PyBullet, Pinocchio  
-**Engineering:** Kinematics, dynamics, controls, trajectory generation, simulation, V&V  
-**Software:** Linux, Git, CMake, Docker, GitHub Actions, pytest, GoogleTest  
+**Languages:** C++, Python, MATLAB
+**Robotics:** ROS 2, Gazebo, MoveIt 2, Nav2, SLAM Toolbox, PyBullet, Pinocchio
+**Engineering:** Kinematics, dynamics, controls, trajectory generation, simulation, V&V
+**Software:** Linux, Git, CMake, Docker, GitHub Actions, pytest, GoogleTest
 **Parallel Computing:** CUDA, OpenMP
 
 ## Connect
