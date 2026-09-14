@@ -41,7 +41,7 @@ Physics-based digital twin for precision writing with a 7-DoF Franka manipulator
 </td>
 <td width="50%" valign="top">
 
-### [ROS 2 AMR Platform](https://github.com/Devansh-Mishra-30/cpp_robotics_sim_foundation)
+### [ROS 2 AMR Platform](https://github.com/Devansh-Mishra-30/ros2-amr-platform)
 
 Autonomous mobile-robot simulation and verification platform built on ROS 2 Jazzy.
 
@@ -56,13 +56,13 @@ Autonomous mobile-robot simulation and verification platform built on ROS 2 Jazz
 
 **357 tests · Docker · GitHub Actions · v0.1.0**
 
-[Repository](https://github.com/Devansh-Mishra-30/cpp_robotics_sim_foundation)
+[Repository](https://github.com/Devansh-Mishra-30/ros2-amr-platform)
 
 </td>
 </tr>
 </table>
 
-### [CUDA Particle Simulation](https://github.com/Devansh-Mishra-30/2D-particle-sim)
+### [CUDA Particle Simulation](https://github.com/Devansh-Mishra-30/cuda-particle-simulation)
 
 Parallel 2D physics simulation comparing serial CPU, OpenMP and CUDA execution.
 
