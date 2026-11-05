@@ -105,3 +105,12 @@ Parallel 2D physics simulation comparing serial CPU, OpenMP and CUDA execution.
 University of Wisconsin–Madison
 
 </div>
+
+<img width="632" height="632" alt="BAJA_SAE_square" src="https://github.com/user-attachments/assets/f239ddb5-37b0-4a7e-9359-7819c326694c" />
+<img width="600" height="600" alt="yaskawa_2x2" src="https://github.com/user-attachments/assets/9efe5d38-bb11-4963-8c10-24a8549ffc82" />
+<img width="600" height="600" alt="VSM_square" src="https://github.com/user-attachments/assets/a3368f48-8fd2-44bb-97ff-d47fedf061cf" />
+<img width="586" height="586" alt="ROS2 Manipulator_square" src="https://github.com/user-attachments/assets/5b90f0ba-7ae8-4cd1-91e0-daebde545183" />
+<img width="600" height="600" alt="ROS2 AMR" src="https://github.com/user-attachments/assets/11e35dde-2711-41af-bb8e-02a31386a329" />
+<img width="600" height="600" alt="Parallel_particles2X2" src="https://github.com/user-attachments/assets/e0838969-b94c-499c-89a9-602917902591" />
+<img width="600" height="600" alt="Franka_2X2" src="https://github.com/user-attachments/assets/3060ac1f-a79a-4a43-8a24-f95fe2da7f1f" />
+
