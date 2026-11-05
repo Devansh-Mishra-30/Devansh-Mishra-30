@@ -2,100 +2,99 @@
 
 # Devansh Mishra
 
-### Robotics Software | Simulation | Controls | Integration | Verification
+### Robotics Software · Simulation · Controls · Integration · Verification
 
-I build reproducible robotics systems that connect models, planning and control
-software, simulation, operator workflows, and engineering evidence.
+I build tested, reproducible robotics systems that connect modeling, planning,
+control, simulation, hardware integration, and engineering evidence.
 
-**C++ | Python | ROS 2 | Gazebo | MoveIt 2 | Nav2 | PyBullet | CUDA | Docker**
-
-[GitHub](https://github.com/Devansh-Mishra-30) ·
-[LinkedIn](https://linkedin.com/in/dvm)
+<a href="https://github.com/Devansh-Mishra-30">GitHub</a> ·
+<a href="https://linkedin.com/in/dvm">LinkedIn</a>
 
 </div>
 
-## Featured robotics and simulation work
+---
 
-### [ROS 2 AMR Platform](https://github.com/Devansh-Mishra-30/ros2-amr-platform)
+## Source-Code Projects
 
-Browser-operated autonomous mobile robot platform for ROS 2 Jazzy and Gazebo
-Harmonic. It integrates differential-drive control, SLAM Toolbox mapping, map
-management, AMCL localization, Nav2 goal execution, command arbitration, and
-managed process lifecycles.
+<table>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/Devansh-Mishra-30/franka-writing-studio">
+        <img src="https://github.com/user-attachments/assets/3060ac1f-a79a-4a43-8a24-f95fe2da7f1f" width="100%" alt="Franka Writing Studio simulation and validated trajectory results">
+      </a>
+      <h3><a href="https://github.com/Devansh-Mishra-30/franka-writing-studio">Franka Writing Studio</a></h3>
+      <p align="left">Physics-based digital twin for SVG-to-trajectory writing with a 7-DoF Franka manipulator, differential IK, and hybrid Cartesian position/force control.</p>
+      <p align="left"><strong>Validated simulation:</strong> 129 tests · 0.0848 mm XY RMSE · 100% writing contact.</p>
+      <p align="left"><code>Python</code> <code>PyBullet</code> <code>Pinocchio</code> <code>MATLAB</code></p>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/Devansh-Mishra-30/ros2-amr-platform">
+        <img src="https://github.com/user-attachments/assets/11e35dde-2711-41af-bb8e-02a31386a329" width="100%" alt="ROS 2 AMR Platform simulation and browser control center">
+      </a>
+      <h3><a href="https://github.com/Devansh-Mishra-30/ros2-amr-platform">ROS 2 AMR Platform</a></h3>
+      <p align="left">Browser-operated autonomous mobile robot platform integrating Gazebo, SLAM Toolbox, AMCL, Nav2, command arbitration, and managed runtime lifecycles.</p>
+      <p align="left"><strong>Released baseline:</strong> v0.1.0 · 357 automated tests · native, Docker, launch, dashboard, and lifecycle validation.</p>
+      <p align="left"><code>C++17</code> <code>Python</code> <code>ROS 2 Jazzy</code> <code>Gazebo</code> <code>Nav2</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/Devansh-Mishra-30/cuda-particle-simulation">
+        <img src="https://github.com/user-attachments/assets/e0838969-b94c-499c-89a9-602917902591" width="100%" alt="Parallel Particle Dynamics Lab numerical experiments">
+      </a>
+      <h3><a href="https://github.com/Devansh-Mishra-30/cuda-particle-simulation">Parallel Particle Dynamics Lab</a></h3>
+      <p align="left">Interactive 2D dynamics workbench for numerical integration, collision response, and sequential, OpenMP, and CUDA solver comparisons.</p>
+      <p align="left"><strong>Verified v2 candidate:</strong> 10/10 CUDA suites · 46/46 OpenMP checks · 4/4 cross-backend scenarios.</p>
+      <p align="left"><code>C++17</code> <code>CUDA</code> <code>OpenMP</code> <code>CMake</code> <code>ImGui</code></p>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/Devansh-Mishra-30/github_arduinobot_ws">
+        <img src="https://github.com/user-attachments/assets/5b90f0ba-7ae8-4cd1-91e0-daebde545183" width="100%" alt="ROS 2 ArduinoBot physical manipulator prototype">
+      </a>
+      <h3><a href="https://github.com/Devansh-Mishra-30/github_arduinobot_ws">ROS 2 ArduinoBot Manipulator</a></h3>
+      <p align="left">Simulation-to-hardware manipulator workspace using URDF/Xacro, Gazebo, MoveIt 2, trajectory controllers, a custom serial hardware interface, and Arduino firmware.</p>
+      <p align="left"><strong>Repository scope:</strong> 10 ROS 2 packages · 3-DoF arm with mirrored gripper · four-servo firmware at 115200 baud.</p>
+      <p align="left"><code>C++</code> <code>Python</code> <code>ROS 2</code> <code>MoveIt 2</code> <code>ros2_control</code> <code>Arduino</code></p>
+    </td>
+  </tr>
+</table>
 
-- **Engineering focus:** autonomy integration, ROS 2 interfaces, lifecycle
-  ownership, safe command routing, and end-to-end verification.
-- **Published evidence:** tagged `v0.1.0` baseline with 357 automated tests,
-  native and Docker validation, launch regression, dashboard integration, and
-  launcher lifecycle tests.
-- **Stack:** C++17, Python, ROS 2 Jazzy, Gazebo Harmonic, `ros2_control`, Nav2,
-  SLAM Toolbox, AMCL, rosbridge, Docker, GitHub Actions.
+## Engineering Case Studies
 
-### [Franka Writing Studio](https://github.com/Devansh-Mishra-30/franka-writing-studio)
+<table>
+  <tr>
+    <td width="33.33%" valign="top" align="center">
+      <img src="https://github.com/user-attachments/assets/f239ddb5-37b0-4a7e-9359-7819c326694c" width="100%" alt="BAJA SAE off-road vehicle">
+      <h3>BAJA SAE Vehicle Engineering</h3>
+      <p align="left">Student off-road vehicle design and build experience spanning chassis, suspension, packaging, fabrication, and prototype integration.</p>
+    </td>
+    <td width="33.33%" valign="top" align="center">
+      <img src="https://github.com/user-attachments/assets/9efe5d38-bb11-4963-8c10-24a8549ffc82" width="100%" alt="Yaskawa industrial robot welding workcell">
+      <h3>Yaskawa Welding Workcell</h3>
+      <p align="left">Industrial robot workflow connecting offline simulation, welding-path development, fixture trials, and physical workcell integration.</p>
+    </td>
+    <td width="33.33%" valign="top" align="center">
+      <img src="https://github.com/user-attachments/assets/a3368f48-8fd2-44bb-97ff-d47fedf061cf" width="100%" alt="Value-stream mapping and manufacturing process analysis">
+      <h3>Value-Stream Mapping</h3>
+      <p align="left">Lean manufacturing case study using current-state mapping, bottleneck analysis, and future-state process redesign to improve production flow.</p>
+    </td>
+  </tr>
+</table>
 
-Physics-based digital twin for a 7-DoF Franka manipulator that converts SVG
-geometry into validated minimum-jerk writing trajectories and executes them in
-PyBullet with differential inverse kinematics and hybrid Cartesian
-position/normal-force control.
+## Engineering Toolkit
 
-- **Engineering focus:** manipulator kinematics and dynamics, trajectory
-  generation, force control, workcell validation, and experiment provenance.
-- **Published evidence:** `v1.0.0`, 129-test release gate, 0.0848 mm WRITE XY
-  RMSE, and 100% WRITE contact in the documented deterministic simulation
-  experiment. These are simulation results, not physical-robot accuracy claims.
-- **Stack:** Python, PyBullet, Pinocchio, MATLAB, PySide6, Docker, pytest.
-
-### [Parallel Particle Dynamics Lab](https://github.com/Devansh-Mishra-30/cuda-particle-simulation)
-
-Educational 2D particle-dynamics workbench for studying numerical integration,
-collision response, dense contacts, and parallel computing across sequential
-C++, OpenMP, and CUDA implementations.
-
-- **Engineering focus:** numerical methods, analytical verification,
-  thread-safe parallel solvers, GPU kernels, experiment automation, and
-  scientific visualization.
-- **Verified v2 release-candidate evidence:** 10/10 CUDA-enabled CTest suites,
-  46/46 OpenMP checks across 1-16 threads, and 4/4 documented cross-backend
-  scenarios on the recorded environment.
-- **Benchmark provenance:** the historical v1 `25.72x` figure is not presented
-  as a current-v2 result; controlled v2 performance publication is pending.
-- **Stack:** C++17, CUDA, OpenMP, CMake, Dear ImGui, ImPlot, GoogleTest.
-
-### [ROS 2 ArduinoBot Manipulator](https://github.com/Devansh-Mishra-30/github_arduinobot_ws)
-
-Simulation-to-hardware manipulator workspace using a shared URDF/Xacro model,
-Gazebo, MoveIt 2, trajectory controllers, a custom `ros2_control` serial hardware
-interface, and Arduino servo firmware.
-
-- **Engineering focus:** robot description, motion-planning integration,
-  controller configuration, serial protocol design, firmware, and hardware
-  bringup.
-- **Repository scope:** 10 ROS 2 packages; three actuated arm joints, a mirrored
-  gripper model, and four-servo Arduino firmware at 115200 baud.
-- **Evidence boundary:** the implementation is documented without fabricated
-  tracking or repeatability metrics; a new clean simulation and hardware
-  validation pass is the next milestone.
-- **Stack:** C++, Python, ROS 2, MoveIt 2, Gazebo, `ros2_control`, Arduino.
-
-## Engineering strengths
-
-| Area | Experience |
+| Area | Tools and methods |
 | --- | --- |
-| Robotics software | ROS 2 nodes, actions, services, launch systems, lifecycle and process ownership |
-| Autonomy and planning | Nav2, SLAM, AMCL, MoveIt 2, task orchestration, cancellation and fault handling |
+| Robotics | ROS 2, Gazebo, MoveIt 2, Nav2, SLAM Toolbox, AMCL, `ros2_control` |
 | Modeling and controls | Kinematics, rigid-body dynamics, trajectory generation, differential IK, force/admittance control |
-| Simulation and integration | Gazebo, PyBullet, robot descriptions, controller interfaces, serial hardware integration |
-| Verification | Unit/integration/E2E tests, analytical and cross-software checks, Docker, CI, evidence-backed release gates |
-| Performance computing | Modern C++, CUDA, OpenMP, profiling, numerical experiments |
+| Simulation and verification | PyBullet, Pinocchio, MATLAB, numerical validation, unit/integration/E2E testing |
+| Software and compute | C++, Python, CUDA, OpenMP, CMake, Docker, GitHub Actions |
 
-## Current engineering direction
+---
 
-- Building dependable ROS 2 systems for autonomous mobile robots and
-  manipulators.
-- Strengthening controls, planning, simulation-to-hardware integration, and
-  verification workflows.
-- Extending industrial integration skills across PLC/HMI interfaces, command
-  handshakes, fault handling, and reproducible acceptance testing.
+<div align="center">
 
-**M.S. Mechanical Engineering - Modeling & Simulation**, University of
-Wisconsin-Madison
+<strong>M.S. Mechanical Engineering — Modeling & Simulation</strong><br>
+University of Wisconsin–Madison
+
+</div>
