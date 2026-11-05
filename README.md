@@ -1,109 +1,111 @@
 <div align="center">
 
-# Devansh Mishra
+<h1>Devansh Mishra</h1>
 
-### Robotics Software · Simulation · Controls · Autonomous Systems
+<p><strong>Robotics Software &amp; Systems Engineer</strong><br>
+<sub>Design · Simulate · Integrate · Validate</sub></p>
 
-I build tested, reproducible robotics platforms using
-**C++ · Python · ROS 2 · Gazebo · PyBullet · Pinocchio · CUDA**
+<p>Building robotics systems across autonomous navigation, manipulation, simulation, and verification.</p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-View_Projects-2563EB?style=for-the-badge)](https://devanshportfolio.bubbleapps.io/version-test/)
-[![GitHub](https://img.shields.io/badge/GitHub-Devansh--Mishra--30-181717?style=for-the-badge&logo=github)](https://github.com/Devansh-Mishra-30)
-[![Location](https://img.shields.io/badge/Location-Nevada%2C_USA-16A34A?style=for-the-badge)](#)
+<p><code>C++</code> · <code>Python</code> · <code>ROS 2</code> · <code>Gazebo</code> · <code>PyBullet</code> · <code>CUDA</code></p>
+
+<p>
+<a href="https://devanshportfolio.bubbleapps.io/version-test/"><strong>Portfolio</strong></a>
+&nbsp; · &nbsp;
+<a href="https://www.linkedin.com/in/dvm/"><strong>LinkedIn</strong></a>
+&nbsp; · &nbsp;
+<a href="mailto:devansh30mishra@gmail.com"><strong>Email</strong></a>
+</p>
 
 </div>
 
 ---
 
-## Featured Engineering Work
+## Featured Robotics & Simulation Projects
+
+<sub>Source code, demonstrations, and engineering evidence</sub>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### [Franka Writing Studio](https://github.com/Devansh-Mishra-30/franka-writing-studio)
-
-Physics-based digital twin for precision writing with a 7-DoF Franka manipulator.
-
-`Python` `PyBullet` `Pinocchio` `MATLAB` `Qt`
-
-- SVG-to-Cartesian motion planning
-- Minimum-jerk trajectories
-- Bounded pose IK and differential IK
-- Hybrid position/force control
-- Collision and reachability preflight
-- Reproducible experiment evidence
-
-**129 tests · 0.0848 mm XY RMSE · 100% contact**
-
-[Repository](https://github.com/Devansh-Mishra-30/franka-writing-studio) · [Release](https://github.com/Devansh-Mishra-30/franka-writing-studio/releases/tag/v1.0.0)
-
+<p align="center"><a href="https://github.com/Devansh-Mishra-30/ros2-amr-platform"><img src="https://github.com/user-attachments/assets/11e35dde-2711-41af-bb8e-02a31386a329" alt="ROS 2 AMR simulation and dashboard" width="260"></a></p>
+<h3><a href="https://github.com/Devansh-Mishra-30/ros2-amr-platform">ROS 2 AMR Platform</a></h3>
+<p>Autonomous mapping, localization, and navigation with a browser-controlled ROS 2 simulation platform.</p>
+<p><strong>357 automated tests · v0.1.0 released</strong></p>
+<p><code>ROS 2</code> <code>Nav2</code> <code>Gazebo</code> <code>Docker</code></p>
+<p><a href="https://github.com/Devansh-Mishra-30/ros2-amr-platform">Code</a> · <a href="https://www.youtube.com/watch?v=zKf_hjIYtlk">Demo</a></p>
 </td>
 <td width="50%" valign="top">
-
-### [ROS 2 AMR Platform](https://github.com/Devansh-Mishra-30/ros2-amr-platform)
-
-Autonomous mobile-robot simulation and verification platform built on ROS 2 Jazzy.
-
-`C++` `Python` `ROS 2` `Gazebo` `Nav2`
-
-- SLAM Toolbox mapping
-- AMCL localization
-- Nav2 autonomous navigation
-- Command arbitration and cancellation
-- Lifecycle-aware managers
-- Unit, integration and E2E testing
-
-**357 tests · Docker · GitHub Actions · v0.1.0**
-
-[Repository](https://github.com/Devansh-Mishra-30/ros2-amr-platform)
-
+<p align="center"><a href="https://github.com/Devansh-Mishra-30/franka-writing-studio"><img src="https://github.com/user-attachments/assets/3060ac1f-a79a-4a43-8a24-f95fe2da7f1f" alt="Franka digital twin writing and tracking results" width="260"></a></p>
+<h3><a href="https://github.com/Devansh-Mishra-30/franka-writing-studio">Franka Writing Studio</a></h3>
+<p>7-DOF digital twin with minimum-jerk trajectories, differential IK, and hybrid position/force control.</p>
+<p><strong>0.0848 mm simulated XY RMSE · 129 tests</strong></p>
+<p><code>PyBullet</code> <code>Pinocchio</code> <code>Python</code> <code>Qt</code></p>
+<p><a href="https://github.com/Devansh-Mishra-30/franka-writing-studio">Code</a> · <a href="https://github.com/Devansh-Mishra-30/franka-writing-studio/releases/tag/v1.0.0">Release</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p align="center"><a href="https://github.com/Devansh-Mishra-30/github_arduinobot_ws"><img src="https://github.com/user-attachments/assets/5b90f0ba-7ae8-4cd1-91e0-daebde545183" alt="ROS 2 manipulator simulation and Arduino prototype" width="260"></a></p>
+<h3><a href="https://github.com/Devansh-Mishra-30/github_arduinobot_ws">ROS 2 Manipulator</a></h3>
+<p>MoveIt 2 planning and Gazebo simulation connected to a 3D-printed, Arduino-controlled arm.</p>
+<p><strong>Simulation-to-hardware integration</strong></p>
+<p><code>ROS 2</code> <code>MoveIt 2</code> <code>ros2_control</code> <code>Arduino</code></p>
+<p><a href="https://github.com/Devansh-Mishra-30/github_arduinobot_ws">Code</a> · <a href="https://devanshportfolio.bubbleapps.io/version-test/project-11">Case study</a></p>
+</td>
+<td width="50%" valign="top">
+<p align="center"><a href="https://github.com/Devansh-Mishra-30/cuda-particle-simulation"><img src="https://github.com/user-attachments/assets/e0838969-b94c-499c-89a9-602917902591" alt="Parallel particle dynamics and numerical verification" width="260"></a></p>
+<h3><a href="https://github.com/Devansh-Mishra-30/cuda-particle-simulation">Parallel Particle Dynamics</a></h3>
+<p>Interactive 2D physics experiments and analytical verification across CPU, OpenMP, and CUDA solvers.</p>
+<p><strong>10/10 CUDA test suites · v2 release candidate</strong></p>
+<p><code>C++17</code> <code>CUDA</code> <code>OpenMP</code> <code>CMake</code></p>
+<p><a href="https://github.com/Devansh-Mishra-30/cuda-particle-simulation">Code</a> · <a href="https://devanshportfolio.bubbleapps.io/version-test/project-10">Case study</a></p>
 </td>
 </tr>
 </table>
 
-### [CUDA Particle Simulation](https://github.com/Devansh-Mishra-30/cuda-particle-simulation)
+<br>
 
-Parallel 2D physics simulation comparing serial CPU, OpenMP and CUDA execution.
+## Engineering Case Studies
 
-**20,000 particles · 25.7× GPU speedup**
+<sub>Hardware integration, industrial engineering, and vehicle development</sub>
 
----
+<table>
+<tr>
+<td width="33%" valign="top">
+<p align="center"><a href="https://devanshportfolio.bubbleapps.io/version-test/project-9"><img src="https://github.com/user-attachments/assets/9efe5d38-bb11-4963-8c10-24a8549ffc82" alt="Yaskawa AR1440 offline programming and welding-cell verification" width="185"></a></p>
+<h3><a href="https://devanshportfolio.bubbleapps.io/version-test/project-9">Yaskawa AR1440</a></h3>
+<p>MotoSim offline programming, YRC1000 execution, and calibrated simulation-to-real validation (&lt;1 mm discrepancy).</p>
+</td>
+<td width="33%" valign="top">
+<p align="center"><a href="https://devanshportfolio.bubbleapps.io/version-test/project-7"><img src="https://github.com/user-attachments/assets/a3368f48-8fd2-44bb-97ff-d47fedf061cf" alt="VFD value-stream mapping and Lean analysis" width="185"></a></p>
+<h3><a href="https://devanshportfolio.bubbleapps.io/version-test/project-7">VFD Value Stream Mapping</a></h3>
+<p>Manufacturing bottleneck analysis, current/future-state VSM, and Lean improvement planning.</p>
+</td>
+<td width="33%" valign="top">
+<p align="center"><a href="https://devanshportfolio.bubbleapps.io/version-test/project-8"><img src="https://github.com/user-attachments/assets/f239ddb5-37b0-4a7e-9359-7819c326694c" alt="Team IMMORTALS all-terrain vehicle" width="185"></a></p>
+<h3><a href="https://devanshportfolio.bubbleapps.io/version-test/project-8">Off-Road ATV</a></h3>
+<p>Vehicle fabrication, mechanical integration, safety inspections, and competition testing with Team IMMORTALS.</p>
+</td>
+</tr>
+</table>
 
-## Engineering Stack
+<br>
 
-| Area | Technologies |
-|---|---|
-| Languages | C++, Python, MATLAB, Bash |
-| Robotics | ROS 2, Gazebo, MoveIt 2, Nav2, SLAM Toolbox, PyBullet |
-| Modeling & Control | Kinematics, dynamics, trajectory generation, differential IK, force control |
-| Simulation & V&V | Digital twins, fault testing, numerical verification, experiment automation |
-| Software Engineering | Linux, Git, CMake, Docker, pytest, GoogleTest, GitHub Actions |
-| Parallel Computing | CUDA, OpenMP |
+## Engineering Toolkit
 
----
-
-## Current Direction
-
-- Building reliable robotics software for manipulators and autonomous mobile robots
-- Strengthening modern C++, algorithms and software architecture
-- Learning PLC, HMI and industrial robot integration
-- Designing verification workflows for simulation and autonomy
-
----
+<table>
+<tr><th align="left">Focus</th><th align="left">Technologies &amp; Methods</th></tr>
+<tr><td><strong>Robotics &amp; Autonomy</strong></td><td>ROS 2, Nav2, SLAM Toolbox, AMCL, MoveIt 2, <code>ros2_control</code>, actions/services</td></tr>
+<tr><td><strong>Controls &amp; Simulation</strong></td><td>Gazebo, PyBullet, Pinocchio, kinematics, dynamics, differential IK, trajectory and force control</td></tr>
+<tr><td><strong>Scientific Computing</strong></td><td>C++17, CUDA, OpenMP, CMake, numerical integration, convergence analysis, profiling</td></tr>
+<tr><td><strong>Software &amp; Verification</strong></td><td>Python, Linux, Bash, Git, Docker, pytest, GoogleTest, CI, automated regression testing</td></tr>
+<tr><td><strong>Industrial Systems</strong></td><td>Yaskawa MotoSim/YRC1000, HMI, MES, VFD, value-stream mapping, root-cause analysis</td></tr>
+<tr><td><strong>Currently Studying</strong></td><td>REST APIs, SQL, logs and telemetry, system diagnostics, SIL/HIL, test traceability</td></tr>
+</table>
 
 <div align="center">
-
-### GitHub Activity
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Devansh-Mishra-30&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" alt="Devansh's GitHub statistics">
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devansh-Mishra-30&layout=compact&hide_border=true&theme=github_dark&langs_count=6" alt="Most-used languages">
-
-<br><br>
-
-**M.S. Mechanical Engineering — Modeling & Simulation**
-University of Wisconsin–Madison
-
+<p><strong>M.S. Mechanical Engineering — Modeling &amp; Simulation</strong><br>University of Wisconsin–Madison</p>
 </div>
 
 <img width="632" height="632" alt="BAJA_SAE_square" src="https://github.com/user-attachments/assets/f239ddb5-37b0-4a7e-9359-7819c326694c" />
